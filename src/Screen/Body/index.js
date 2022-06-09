@@ -62,7 +62,24 @@ function Body() {
         <div>
           <img src={BackgroundImg} alt="CoverImage" className="coverPic" />
         </div>
+        <div className="follower">
+          <div className="disabledText">
+            Postingan
+            <div className="blackText">20</div>
+          </div>
+          <div className="disabledText">
+            Mengikuti
+            <div className="blackText">5</div>
+          </div>
+          <div className="disabledText">
+            Pengikut
+            <div className="blackText">5</div>
+          </div>
+        </div>
         <div className="profileInfo">
+          <div className="imageProfile">
+            <img src={ProfilePic} className="imageProfile" />
+          </div>
           <div className="username">Ryudan Sesa</div>
           <div className="rate">
             <Rating
@@ -73,7 +90,11 @@ function Body() {
               fillColor="yellow"
             />
           </div>
-          <div className="btn">Edit Profil</div>
+          <div className="btnEdit">Edit Profil</div>
+          <div className="descProfile">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the..
+          </div>
         </div>
       </div>
       <div className="container">
@@ -149,23 +170,23 @@ function Body() {
             </div>
             <div className="emotPost">
               <div className="emotPostItem">
-                <img src={Inspiring} alt="emotPost" />
+                <img src={Inspiring} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">32</div>
               </div>
               <div className="emotPostItem">
-                <img src={Fun} alt="emotPost" />
+                <img src={Fun} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">23</div>
               </div>
               <div className="emotPostItem">
-                <img src={Comment} alt="emotPost" />
+                <img src={Comment} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">15</div>
               </div>
               <div className="emotPostItem">
-                <img src={See} alt="emotPost" />
+                <img src={See} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">2</div>
               </div>
               <div className="emotPostItem">
-                <img src={Forward} alt="emotPost" />
+                <img src={Forward} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">12</div>
               </div>
               <div className="emotPostItemRight">
@@ -207,23 +228,23 @@ function Body() {
             </div>
             <div className="emotPost">
               <div className="emotPostItem">
-                <img src={Inspiring} alt="emotPost" />
+                <img src={Inspiring} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">32</div>
               </div>
               <div className="emotPostItem">
-                <img src={Fun} alt="emotPost" />
+                <img src={Fun} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">23</div>
               </div>
               <div className="emotPostItem">
-                <img src={Comment} alt="emotPost" />
+                <img src={Comment} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">15</div>
               </div>
               <div className="emotPostItem">
-                <img src={See} alt="emotPost" />
+                <img src={See} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">2</div>
               </div>
               <div className="emotPostItem">
-                <img src={Forward} alt="emotPost" />
+                <img src={Forward} alt="emotPost" className="emotPostItem" />
                 <div className="viewers">12</div>
               </div>
               <div className="emotPostItemRight">
