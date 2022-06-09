@@ -85,7 +85,7 @@ function Body() {
             <Rating
               onClick={setRating}
               ratingValue={rating}
-              size={30}
+              size={20}
               transition={true}
               fillColor="yellow"
             />
