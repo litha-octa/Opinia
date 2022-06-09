@@ -19,9 +19,28 @@ import PetisiOff from "./petisiOff.png";
 import SemuaOn from "./semuaOn.png";
 import PollingOff from "./polingOff.png";
 import PostProfile from './postProfile.png';
+import TripleDot from './tripelDot.png';
+import Fun from './fun.png';
+import Comment from "./coment.png";
+import Inspiring from "./inspiring.png";
+import Forward from "./forward.png";
+import See from './see.png';
+import Share from "./share.png";
+import Send from './emotKirim.png';
+import CreatePost from './createPost.png';
+
 
 export { LogoOpinia, 
+    Send,
+    CreatePost,
+    Forward,
+    Share,
+    See,
+    Fun,
+    Comment,
+    Inspiring,
     ArtikelOff,
+    TripleDot,
     PostProfile,
     BgPost,
     IdeOff,
