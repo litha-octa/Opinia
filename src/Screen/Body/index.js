@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import useCollapse from "react-collapsed";
 import {
   Home,
   LogoOpinia,
